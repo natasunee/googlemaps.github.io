@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Folder>
+  <name>District Polygon Folder</name>
+  <open>1</open>
+  <description></description>
+  <Placemark>
+    <name>Folder object 2 (Polygon)</name>
+    <Polygon>
+      <altitudeMode>clampToGround</altitudeMode>
+      <outerBoundaryIs>
+        <LinearRing>
+          <coordinates>
+            -94.84433855, 39.53505883
+            -94.83010566, 39.82194139
+            -94.59858395, 39.8204777
+            -94.59383965, 39.53213146
+            -94.84433855, 39.53505883
+          </coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+    </Polygon>
+  </Placemark>
+</Folder>
+</kml>
