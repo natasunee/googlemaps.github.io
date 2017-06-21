@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Untitled layer</name>
+    <Style id="poly-FFFF66-3000-115-normal">
+      <LineStyle>
+        <color>ff66ffff</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7366ffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-FFFF66-3000-115-highlight">
+      <LineStyle>
+        <color>ff66ffff</color>
+        <width>4.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7366ffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-FFFF66-3000-115">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FFFF66-3000-115-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FFFF66-3000-115-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>สวนหลวง ร.9</name>
+      <description>test</description>
+      <styleUrl>#poly-FFFF66-3000-115</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              100.663855,13.693274,0
+              100.663512,13.691857,0
+              100.660851,13.692941,0
+              100.659735,13.691148,0
+              100.658705,13.690898,0
+              100.657933,13.687353,0
+              100.65819,13.687062,0
+              100.660336,13.686603,0
+              100.660293,13.685769,0
+              100.662439,13.68531,0
+              100.661066,13.683476,0
+              100.660722,13.683559,0
+              100.658791,13.681016,0
+              100.661366,13.679306,0
+              100.663383,13.681849,0
+              100.662739,13.682392,0
+              100.665915,13.68727,0
+              100.66819,13.68702,0
+              100.670507,13.691523,0
+              100.671494,13.693191,0
+              100.669692,13.693358,0
+              100.669091,13.698778,0
+              100.667503,13.698778,0
+              100.66746,13.700029,0
+              100.663126,13.699737,0
+              100.663855,13.693274,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
